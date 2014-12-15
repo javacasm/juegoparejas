@@ -1,0 +1,162 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFCB58" >
+
+    <LinearLayout
+        android:id="@+id/llJuego"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TableLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/tlJuego"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:background="#FFCB58" >
+
+            <TextView
+                android:id="@+id/tvPuntuacion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/puntuacion"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dp" />
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                style="@style/fila"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:id="@+id/iv11"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv12"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv13"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv21"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv22"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv23"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/TableRow02"
+                style="@style/fila" >
+
+                <ImageView
+                    android:id="@+id/iv31"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv32"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv33"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv41"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv42"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+                <ImageView
+                    android:id="@+id/iv43"
+                    style="@style/imagen"
+                    android:onClick="pulsaImagen" />
+
+            </TableRow>
+
+            <Chronometer
+                android:id="@+id/chrono"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:text="Chronometer"
+                android:textSize="23dp"
+                android:typeface="monospace" />
+
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:onClick="stopGame"
+            android:text="@string/stop"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+    </LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:id="@+id/llComienzo"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+
+    <TextView
+        android:id="@+id/AvisoJuego"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/pulseparajugar"
+        android:textSize="40dp"
+        android:typeface="monospace" />
+
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="startGame"
+        android:text="@string/start"
+        android:textSize="20dp"
+        android:typeface="monospace" />
+
+</LinearLayout>
+
+</FrameLayout>

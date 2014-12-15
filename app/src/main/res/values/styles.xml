@@ -1,0 +1,20 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+<style name="imagen">
+    <item name="android:layout_width">wrap_content</item>
+            <item name="android:layout_height">wrap_content</item>
+            <item name="android:adjustViewBounds">true</item>
+            <item name="android:maxHeight">75dp</item>
+            <item name="android:maxWidth">75dp</item>
+            <item name="android:src">@drawable/interrogacion</item>
+            <item name="android:contentDescription">@string/descripcion</item>
+  
+</style>
+<style name="fila">
+    <item name="android:layout_width">wrap_content</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center_horizontal</item>
+ </style>
+ 
+ </resources>

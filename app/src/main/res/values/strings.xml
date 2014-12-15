@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">juegoparejas</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Descubre las parejas</string>
+    <string name="puntuacion">Puntuación: </string>
+    <string name="descripcion">Imagen</string>
+<string name="start">Start</string>
+<string name="stop">Stop</string>
+<string name="pulseparajugar">Pulse Start para jugar</string>
+</resources>
